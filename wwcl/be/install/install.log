@@ -1,0 +1,80 @@
+INFO  - 2009-01-04 11:16:26 --> Basepath set to ./..
+INFO  - 2009-01-04 11:16:26 --> New feature 'FileSystem Check' created
+INFO  - 2009-01-04 11:16:26 --> New feature 'Setup FileSystem' created
+INFO  - 2009-01-04 11:16:26 --> New feature 'Setup Database' created
+INFO  - 2009-01-04 11:16:26 --> Feature 'Setup FileSystem' now has prerequisite 'FileSystem Check'
+INFO  - 2009-01-04 11:16:26 --> Feature 'Setup Database' now has prerequisite 'Setup FileSystem'
+INFO  - 2009-01-04 11:16:26 --> Component 'Log Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2009-01-04 11:16:26 --> Component 'Asset folders writable' attached to feature 'FileSystem Check'
+INFO  - 2009-01-04 11:16:26 --> Component 'Cache Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2009-01-04 11:16:26 --> Component 'Config files writable' attached to feature 'FileSystem Check'
+INFO  - 2009-01-04 11:16:26 --> Component 'Create new system config file' attached to feature 'Setup FileSystem'
+INFO  - 2009-01-04 11:16:26 --> Component 'Create new database config file' attached to feature 'Setup FileSystem'
+INFO  - 2009-01-04 11:16:26 --> Component 'Create new ReCAPTCHA config file' attached to feature 'Setup FileSystem'
+INFO  - 2009-01-04 11:16:26 --> Component 'Connect to database' attached to feature 'Setup Database'
+INFO  - 2009-01-04 11:16:26 --> Component 'Update table schema' attached to feature 'Setup Database'
+INFO  - 2009-01-04 11:16:26 --> Component 'Create administrator user account' attached to feature 'Setup Database'
+ERROR - 2009-01-04 11:16:26 --> Log Folder writable Component install failed: /system/logs folder isn't writable
+INFO  - 2009-01-04 11:16:26 --> Attempting to roll back Components for 'FileSystem Check' Feature
+INFO  - 2009-01-04 11:16:26 --> Setup FileSystem Feature installation haulted since its prerequisite feature 'FileSystem Check' failed to install
+INFO  - 2009-01-04 11:16:26 --> Setup Database Feature installation haulted since its prerequisite feature 'Setup FileSystem' failed to install
+INFO  - 2009-01-04 11:18:59 --> Basepath set to ./..
+INFO  - 2009-01-04 11:18:59 --> New feature 'FileSystem Check' created
+INFO  - 2009-01-04 11:18:59 --> New feature 'Setup FileSystem' created
+INFO  - 2009-01-04 11:18:59 --> New feature 'Setup Database' created
+INFO  - 2009-01-04 11:18:59 --> Feature 'Setup FileSystem' now has prerequisite 'FileSystem Check'
+INFO  - 2009-01-04 11:18:59 --> Feature 'Setup Database' now has prerequisite 'Setup FileSystem'
+INFO  - 2009-01-04 11:18:59 --> Component 'Log Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2009-01-04 11:18:59 --> Component 'Asset folders writable' attached to feature 'FileSystem Check'
+INFO  - 2009-01-04 11:18:59 --> Component 'Cache Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2009-01-04 11:18:59 --> Component 'Config files writable' attached to feature 'FileSystem Check'
+INFO  - 2009-01-04 11:18:59 --> Component 'Create new system config file' attached to feature 'Setup FileSystem'
+INFO  - 2009-01-04 11:18:59 --> Component 'Create new database config file' attached to feature 'Setup FileSystem'
+INFO  - 2009-01-04 11:18:59 --> Component 'Create new ReCAPTCHA config file' attached to feature 'Setup FileSystem'
+INFO  - 2009-01-04 11:18:59 --> Component 'Connect to database' attached to feature 'Setup Database'
+INFO  - 2009-01-04 11:18:59 --> Component 'Update table schema' attached to feature 'Setup Database'
+INFO  - 2009-01-04 11:18:59 --> Component 'Create administrator user account' attached to feature 'Setup Database'
+ERROR - 2009-01-04 11:18:59 --> Log Folder writable Component install failed: /system/logs folder isn't writable
+INFO  - 2009-01-04 11:18:59 --> Attempting to roll back Components for 'FileSystem Check' Feature
+INFO  - 2009-01-04 11:18:59 --> Setup FileSystem Feature installation haulted since its prerequisite feature 'FileSystem Check' failed to install
+INFO  - 2009-01-04 11:18:59 --> Setup Database Feature installation haulted since its prerequisite feature 'Setup FileSystem' failed to install
+INFO  - 2009-01-04 11:19:07 --> Basepath set to ./..
+INFO  - 2009-01-04 11:19:07 --> New feature 'FileSystem Check' created
+INFO  - 2009-01-04 11:19:07 --> New feature 'Setup FileSystem' created
+INFO  - 2009-01-04 11:19:07 --> New feature 'Setup Database' created
+INFO  - 2009-01-04 11:19:07 --> Feature 'Setup FileSystem' now has prerequisite 'FileSystem Check'
+INFO  - 2009-01-04 11:19:07 --> Feature 'Setup Database' now has prerequisite 'Setup FileSystem'
+INFO  - 2009-01-04 11:19:07 --> Component 'Log Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2009-01-04 11:19:07 --> Component 'Asset folders writable' attached to feature 'FileSystem Check'
+INFO  - 2009-01-04 11:19:07 --> Component 'Cache Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2009-01-04 11:19:07 --> Component 'Config files writable' attached to feature 'FileSystem Check'
+INFO  - 2009-01-04 11:19:07 --> Component 'Create new system config file' attached to feature 'Setup FileSystem'
+INFO  - 2009-01-04 11:19:07 --> Component 'Create new database config file' attached to feature 'Setup FileSystem'
+INFO  - 2009-01-04 11:19:07 --> Component 'Create new ReCAPTCHA config file' attached to feature 'Setup FileSystem'
+INFO  - 2009-01-04 11:19:07 --> Component 'Connect to database' attached to feature 'Setup Database'
+INFO  - 2009-01-04 11:19:07 --> Component 'Update table schema' attached to feature 'Setup Database'
+INFO  - 2009-01-04 11:19:07 --> Component 'Create administrator user account' attached to feature 'Setup Database'
+ERROR - 2009-01-04 11:19:07 --> Log Folder writable Component install failed: /system/logs folder isn't writable
+INFO  - 2009-01-04 11:19:07 --> Attempting to roll back Components for 'FileSystem Check' Feature
+INFO  - 2009-01-04 11:19:07 --> Setup FileSystem Feature installation haulted since its prerequisite feature 'FileSystem Check' failed to install
+INFO  - 2009-01-04 11:19:07 --> Setup Database Feature installation haulted since its prerequisite feature 'Setup FileSystem' failed to install
+INFO  - 2009-01-04 11:23:37 --> Basepath set to ./..
+INFO  - 2009-01-04 11:23:37 --> New feature 'FileSystem Check' created
+INFO  - 2009-01-04 11:23:37 --> New feature 'Setup FileSystem' created
+INFO  - 2009-01-04 11:23:37 --> New feature 'Setup Database' created
+INFO  - 2009-01-04 11:23:37 --> Feature 'Setup FileSystem' now has prerequisite 'FileSystem Check'
+INFO  - 2009-01-04 11:23:37 --> Feature 'Setup Database' now has prerequisite 'Setup FileSystem'
+INFO  - 2009-01-04 11:23:37 --> Component 'Log Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2009-01-04 11:23:37 --> Component 'Asset folders writable' attached to feature 'FileSystem Check'
+INFO  - 2009-01-04 11:23:37 --> Component 'Cache Folder writable' attached to feature 'FileSystem Check'
+INFO  - 2009-01-04 11:23:37 --> Component 'Config files writable' attached to feature 'FileSystem Check'
+INFO  - 2009-01-04 11:23:37 --> Component 'Create new system config file' attached to feature 'Setup FileSystem'
+INFO  - 2009-01-04 11:23:37 --> Component 'Create new database config file' attached to feature 'Setup FileSystem'
+INFO  - 2009-01-04 11:23:37 --> Component 'Create new ReCAPTCHA config file' attached to feature 'Setup FileSystem'
+INFO  - 2009-01-04 11:23:37 --> Component 'Connect to database' attached to feature 'Setup Database'
+INFO  - 2009-01-04 11:23:37 --> Component 'Update table schema' attached to feature 'Setup Database'
+INFO  - 2009-01-04 11:23:37 --> Component 'Create administrator user account' attached to feature 'Setup Database'
+ERROR - 2009-01-04 11:23:37 --> Log Folder writable Component install failed: /system/logs folder isn't writable
+INFO  - 2009-01-04 11:23:37 --> Attempting to roll back Components for 'FileSystem Check' Feature
+INFO  - 2009-01-04 11:23:37 --> Setup FileSystem Feature installation haulted since its prerequisite feature 'FileSystem Check' failed to install
+INFO  - 2009-01-04 11:23:37 --> Setup Database Feature installation haulted since its prerequisite feature 'Setup FileSystem' failed to install
