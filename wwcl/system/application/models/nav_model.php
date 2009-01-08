@@ -13,7 +13,7 @@
 			if ($query->num_rows() > 0) {
 				$output = '<ul>';
 				foreach ($query->result() as $nav) {
-					$output .= '<li><a href="index.php/' . $nav->link . '">' . $nav->item . '</a></li>';									
+					$output .= '<li><a href="/' . $nav->link . '">' . $nav->item . '</a></li>';									
 				}
 				$output .= '</ul>';
 				return $output;
