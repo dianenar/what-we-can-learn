@@ -8,17 +8,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 <title><?=$title?></title>
-<style type="text/css">
-	body {font-family: calibri, arial, sans-serif; font-size: 14px; color: #454545;}
-	.wrap {width:960px; margin: 0 auto; }
-	h1 {font-size: 24px; font-family: calibri, arial, sans-serif; text-align: center; width: 700px; margin: 100px auto;}
-	ul { list-style: none;}
-	dt {font-weight: 700;}
-	dd {margin-bottom: 15px; padding-bottom: 5px; border-bottom: 1px solid #ccc}
-	#nav li {float: left; width: auto; padding: 0 10px; display: inline;}
-	/*clear fix*/
-	.cf:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.cf{display:inline-block}html[xmlns] .cf{display:block}* html .cf{height:1%}
-</style>
-
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>styles/global.css" />
+<script type="text/javascript" src="<?=base_url()?>lib/jquery/jquery.js"></script>
 </head>
 <body>
+	

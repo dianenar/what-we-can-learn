@@ -7,17 +7,19 @@
 			$this->load->helper('form');
 			$this->load->model('glossary_model');
 			$this->load->model('nav_model');
+			$this->load->model('static_files_model');
 			//$this->output->cache(120);
 		}
     	function index()
 		{
+			/* Initiate Globals */
+			$data['static_files'] = $this->static_files_model->getStaticFilesHost();
+			$data['navigation'] = $this->nav_model->getNavLinks();
 			$data['title'] = 'Glossary';
 			$data['heading'] = 'God, Source energy, All that IS, is the essence of who you are.';
     		$data['nav'] = array('Getting Started', 'Glossary', 'Community');
-			$data['extraHeadContent'] = '<script type="text/javascript" src="' . base_url() . 'lib/jquery/jquery.js"></script>';
 			$data['query'] = $this->db->get('glossary');
-			$active = '';
-			$data['navigation'] = $this->nav_model->getNavLinks();
+			
 			
 			$this->load->view('glossary_view', $data);
 			
