@@ -11,7 +11,7 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://localhost/what-we-can-learn/wwcl/";
+$config['base_url']	= "http://localhost/wwcl/";
 
 /*
 |--------------------------------------------------------------------------
