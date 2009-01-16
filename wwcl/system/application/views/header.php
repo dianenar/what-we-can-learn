@@ -11,6 +11,7 @@
 <style type="text/css">
 	body {font-family: calibri, arial, sans-serif; font-size: 14px; color: #454545;}
 	.wrap {width:960px; margin: 0 auto; }
+	h1 {font-size: 24px; font-family: calibri, arial, sans-serif; text-align: center; width: 700px; margin: 100px auto;}
 	ul { list-style: none;}
 	dt {font-weight: 700;}
 	dd {margin-bottom: 15px; padding-bottom: 5px; border-bottom: 1px solid #ccc}
