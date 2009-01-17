@@ -19,7 +19,12 @@
 					} else {
 						$navState = "";
 					}
-					$output .= '<li><a class="'. $navState . '" href="' . site_url() . '/' . $nav->link . '">' . $nav->item . '</a></li>';									
+					if($nav->ext == 0){
+						$base_path = site_url() . "/";
+					} else {
+						$base_path = "";
+					}
+					$output .= '<li><a class="'. $navState . '" href="' . $base_path . $nav->link . '">' . $nav->item . '</a></li>';									
 				}
 				$output .= '<span id="nav_move"></span></ul></div>';
 				return $output;
