@@ -9,7 +9,7 @@
 
 <title><?=$title?></title>
 <link rel="stylesheet" type="text/css" href="<?=base_url()?>styles/global.css" />
-<script type="text/javascript" src="<?=base_url()?>lib/jquery/jquery.js"></script>
+<script type="text/javascript" src="<?=base_url()?>lib/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="<?=base_url()?>lib/custom.js"></script>
 </head>
 <body>
-	

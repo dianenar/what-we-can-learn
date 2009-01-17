@@ -12,8 +12,6 @@
 		}
     	function index()
 		{
-			/* Initiate Globals */
-			$data['static_files'] = $this->static_files_model->getStaticFilesHost();
 			$data['navigation'] = $this->nav_model->getNavLinks();
 			$data['title'] = 'Glossary';
 			$data['heading'] = 'God, Source energy, All that IS, is the essence of who you are.';
@@ -39,6 +37,10 @@
 			$glossary_term = $this->input->post('glossary_term');
 			$data['search_results'] = $this->glossary_model->getSearchResults($glossary_term);
 			$this->load->view('glossary_search', $data);
+		}
+		function getting_started()
+		{
+			echo 'test';
 		}		
 		
     }

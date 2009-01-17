@@ -12,16 +12,20 @@
     	function index()
 		{
 			$data['title'] = 'Video Archive';
-			$data['heading'] = 'Videos';    		
-			$data['extraHeadContent'] = '<script type="text/javascript" src="' . base_url() . 'lib/jquery/jquery.js"></script>';
-			//$data['query'] = $this->db->get('glossary');
-			//$active = '';
+			$data['heading'] = 'Videos';    			
 			$data['navigation'] = $this->nav_model->getNavLinks();
 			
 			$this->load->view('video_view', $data);
 			
     	}
-		
+		function play()
+		{
+			$data['title'] = 'Video Archive';
+			$data['heading'] = 'Videos';    			
+			$data['navigation'] = $this->nav_model->getNavLinks();
+			$data['video_id'] = $this->uri->segment(3);
+			$this->load->view('play_view', $data);
+		}
 		
     }
 ?>

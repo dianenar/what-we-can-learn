@@ -1,6 +1,6 @@
 body {font-family: calibri, arial, sans-serif; font-size: 14px; color: #454545; padding: 0; margin: 0}
 ul, li {margin:0; padding: 0;}
-h1 {font-size: 24px; font-family: calibri, arial, sans-serif; text-align: center; width: 700px; margin: 100px auto;}
+h1 {font-size: 24px; font-family: calibri, arial, sans-serif;margin-bottom: 10px;}
 ul { list-style: none;}
 dt {font-weight: 700;}
 dd {margin-bottom: 15px; padding-bottom: 5px; border-bottom: 1px solid #ccc}
@@ -13,20 +13,25 @@ dd {margin-bottom: 15px; padding-bottom: 5px; border-bottom: 1px solid #ccc}
 .columns{ display:block;}
 .columns .col{float:left;overflow:hidden;display:inline; width: auto;}
 
+#nav2 {margin:35px 0 0;}
+#nav2 li {float:left; width: auto;}
+#nav2 a{color:#492b23;display:block;text-decoration:underline;margin:0 5px 0 0;padding:10px; text-align: center;}
+#nav2 a.active {background:#ecf6f5;}
+#nav2 a.active, #nav2 a:hover{text-decoration:none;color:#3f5f5a;}
 
-/* Nav */
+/* Nav */ 
 #nav-wrap {background: url(/wwcl/images/bg_lines_dotted.gif) repeat-x top; padding-top: 2px; margin: 0 auto 10px; width: 962px;}
 #nav-wrap ul {height: 49px; margin: 0 auto; padding:0; list-style: none; width: 962px;}
-#nav-wrap li { float: left; width: 122px; height: 48px; margin: 0; padding; 0;  text-align: left;}
+#nav-wrap li { float: left; width: 122px; height: 48px; margin: 0; padding: 0;  text-align: left;}
 #nav-wrap li.blog { border: none; width: 229px; padding: 0; text-align: center}
 #nav img { vertical-align: middle}
 #nav a { padding: 10px 0 0 16px; height: 38px; line-height: 18px; text-decoration: none; font-size: 14px; color: #3b3b3b; font-weight:700; display: block;border-bottom: 1px solid #c1c1c1; border-left: 1px solid #c1c1c1; }
 #nav a.first {border-left: none;}
-#nav a.selected { background: #e9eff3; border-right: 1px solid #fff;border-bottom: 1px solid #e9eff3;}
+#nav a.active { background: #e9eff3; border-right: 1px solid #fff;border-bottom: 1px solid #e9eff3;}
 #nav a:hover { color: #109fe8;}
 #sub-nav { background: url(/wwcl/images/bg_subnav.gif) repeat-x; line-height: 24px; border-bottom: 1px solid #000}
 #sub-nav a { text-transform: uppercase; font-size: 11px; color: #3b6f94; text-decoration: none; font-weight: 700; padding: 0 5px;}
-#sub-nav a.selected {color: #000}
+#sub-nav a.active {color: #000}
 #nav-wrap .services {padding-left: 380px;}
 
 
