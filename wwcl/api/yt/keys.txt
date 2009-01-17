@@ -1,0 +1,11 @@
+
+
+Youtube Developer Keys for WWCL
+
+client ID
+
+ytapi-DianeNardozzi-WhatWeCanLearn-9i1hli2o-0
+
+Developer Key
+
+AI39si6nnfmKXYx2VFIywuw3X1kcISm3JKDzMpn55k3pfJhp5D4PT19_SiMmZDkTioXc0c55WJY6WgwO9zYg2GY2afDlrH_iYQ
