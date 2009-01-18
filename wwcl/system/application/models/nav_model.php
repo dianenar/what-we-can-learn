@@ -20,7 +20,7 @@
 						$navState = "";
 					}
 					if($nav->ext == 0){
-						$base_path = site_url() . "/";
+						$base_path = site_url();
 					} else {
 						$base_path = "";
 					}

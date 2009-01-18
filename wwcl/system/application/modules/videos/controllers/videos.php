@@ -15,6 +15,7 @@
 			$data['title'] = 'Video Archive';
 			$data['heading'] = 'Videos';    			
 			$data['video_list'] = $this->video_model->getRecentVideos();
+			
 			$this->load->view('videos_view', $data);
 			
     	}
