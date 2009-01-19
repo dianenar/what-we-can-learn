@@ -67,7 +67,7 @@ class Video_model extends Model {
 		$this->db->where('cid',$cat_id);
 		$this->db->from('videos');
 		$this->db->join('video_categories','videos.cid = video_categories.id', 'LEFT OUTER');
-        $this->db->orderby('title');
+        $this->db->orderby('videos.id desc');
 		$query = $this->db->get();	
 		if($query->num_rows() > 0){	   			
 			//. $video_by_cat->category
