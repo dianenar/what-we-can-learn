@@ -14,7 +14,7 @@
 		{
 			$data['navigation'] = $this->nav_model->getNavLinks();
 			$data['title'] = 'Glossary';
-			$data['heading'] = 'God, Source energy, All that IS, is the essence of who you are.';
+			$data['heading'] = 'Glossary';//'God, Source energy, All that IS, is the essence of who you are.';
     		$data['nav'] = array('Getting Started', 'Glossary', 'Community');
 			$data['query'] = $this->db->get('glossary');
 			
